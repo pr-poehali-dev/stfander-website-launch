@@ -7,7 +7,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
+
   const [gameId, setGameId] = useState("");
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const goldItems = [
     { amount: "100G", price: "30 RUB", imageUrl: "https://images.unsplash.com/photo-1607344645866-009c320c5ab8?q=80&w=2000" },
